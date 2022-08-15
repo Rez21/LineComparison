@@ -11,7 +11,9 @@ namespace LineComparison
         static void Main(string[] args)
         {
             UC1_Line_Length length = new UC1_Line_Length();
-            length.CalLength(5, 6, 7, 8);
+            length.CallLength(5, 6, 7, 8);
+
+            UC2_Line_Length_Comparison.CompareLine();
         }
     }
 }
