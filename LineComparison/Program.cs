@@ -14,6 +14,9 @@ namespace LineComparison
             length.CallLength(5, 6, 7, 8);
 
             UC2_Line_Length_Comparison.CompareLine();
+            UC3_Line_Smaller_Greater.Compare();
+            Console.ReadLine();
+
         }
     }
 }
